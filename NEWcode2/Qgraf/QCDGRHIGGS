@@ -1,0 +1,88 @@
+*****************************************
+*****************************************
+******    By - VAIBHAV PANDEY      ******
+*****************************************
+*****************************************
+******            SM               ******
+*****************************************
+
+* QCDGRHIGGS
+* UPQ = upbar, upq = up, glu = gluon,
+* gh = Ghost, GH = anti-ghost
+
+**************************
+* Propagators
+* QCD, Graviton and Higgs
+*-------------------------
+[upq, UPQ, - ; pfunct= 'QQ', m= mu ]
+[dq, DQ, - ; pfunct= 'QQ', m= md ]
+*[c, C, - ; pfunct= 'QQ', m= mc ]
+[bot, BOT, - ; pfunct= 'QQ', m= mb ]
+[elt, ELT, - ; pfunct= 'EE', m= me ]
+[top, TOP, - ; pfunct= 'TT', m= mt ]
+[glu, glu, + ; pfunct= 'GG', m= 0 ]
+[ph, ph, + ; pfunct= 'AA', m= 0 ]
+[gh, GH, - ; pfunct= 'CC', m= 0 ]
+[Hig, Hig, + ;pfunct= 'HH', m=xmH]
+[zbos,zbos, + ;pfunct='zz', m=mz ]
+[wpbos,wmbos, + ;pfunct='ww', m=mw ]
+[gr,gr, + ;pfunct='GR', m=mgr ] 
+
+
+*********************************************************
+* Vertices
+* [antiparticle, particle, gauge boson; coupling const]
+* all momenta go inside the vertex
+*------------------
+*------------------
+* QCD Vertices
+*------------------
+
+[UPQ,upq,glu; gs=1, kap=0, CH=0 ,ew=0,yuk=0]
+[DQ,dq,glu; gs=1, kap=0, CH=0 ,ew=0,yuk=0]
+[BOT,bot,glu; gs=1, kap=0, CH=0 ,ew=0,yuk=0]
+[TOP,top,glu; gs=1, kap=0, CH=0 ,ew=0,yuk=0]
+[glu,glu,glu; gs=1, kap=0, CH=0,ew=0,yuk=0]
+[glu,glu,glu,glu; gs=2, kap=0, CH=0,ew=0,yuk=0]
+[GH,gh,glu; gs=1, kap=0, CH=0,ew=0,yuk=0]
+
+*------------------
+* QED Vertices
+*------------------
+
+[UPQ,upq,ph; gs=0, kap=1, CH=0 ,ew=0,yuk=0]
+[DQ,dq,ph; gs=0, kap=1, CH=0 ,ew=0,yuk=0]
+[ELT,elt,ph; gs=0, kap=1, CH=0 ,ew=0,yuk=0]
+
+*------------------
+* EW Vertices
+*------------------
+
+[ELT,elt,zbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[UPQ,upq,zbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[DQ,dq,zbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[UPQ,dq,wpbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[DQ,upq,wmbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[wpbos,wmbos,zbos; gs=0,kap=0, CH=0, ew=1,yuk=0]
+[wpbos,wmbos,ph; gs=0,kap=1, CH=0, ew=0,yuk=0]
+
+*------------------
+* YUKAWA Vertices
+*------------------
+[BOT,bot,Hig; gs=0,kap=0, CH=0, ew=0,yuk=1]
+
+**---------------------------
+** QCD Higgs effective vertex
+**---------------------------
+*
+*** for tTH coupling close this off as it does genetate additional ggH vertex
+*[glu,glu,Hig; gs=0, kap=0, CH=1,ew=0,yuk=0]
+*[glu,glu,glu,Hig; gs=1, kap=0, CH=1,ew=0,yuk=0]
+*[g,g,g,g,H; gs=2, kap=0, CH=1,ew=0,yuk=0]
+*
+**---------------------------
+** top antitop Higgs  vertex
+**---------------------------
+*
+**[T,t,H; gs=0, kap=0, CH=1,ew=0,yuk=0]
+****************************************************************************

@@ -1,0 +1,14 @@
+output= 'qQ2ww1L.qgraf.yaml' ;
+style= 'reduze_mod.sty' ;
+model= 'QCDGRHIGGS';
+
+in= upq[p1], UPQ[p2];
+out= wpbos[p3], wmbos[p4];
+
+loops= 1;
+loop_momentum= k;
+options=  notadpole, nosnail, onshell;
+true = vsum[gs, 1, 2];
+*true = vsum[kap, 0, 0];
+*true = vsum[CH, 1, 1];
+*true = iprop[QQ, 0, 1];

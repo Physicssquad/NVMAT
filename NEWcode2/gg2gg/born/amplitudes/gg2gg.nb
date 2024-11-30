@@ -1,0 +1,25 @@
+In[1]:= SetDirectory[NotebookDirectory[]]
+Out[1]= /home/physics/work2/matrix_amp/NEWcode2/gg2gg/born/amplitudes
+In[56]:= <<amplitudes.m
+In[57]:= subgprop={gprop[-p1-p2]->1/s,gprop[-p1+p3]->1/t,gprop[-p1+p4]->1/u};
+In[58]:= sqamp = 0;Do[Do[sqamp=sqamp+ mat[ii,jj] //Simplify,{jj,1,4}],{ii,1,4}]
+In[59]:= Cases[sqamp,_gprop,Infinity]//DeleteDuplicates
+Out[59]= {gprop[-p1+p3],gprop[-p1-p2],gprop[-p1+p4]}
+In[77]:= webgg2gg = 9/2 (3- (t u)/s^2-(s u )/t^2-(s t)/u^2 );
+webgg2gg /. s -> -t-u //Expand
+Out[78]= 27/2+(9 t^2)/(2 u^2)+(9 t)/(2 u)+(9 u)/(2 t)-(9 t u)/(2 (-t-u)^2)+(9 u^2)/(2 t^2)
+In[93]:= webqg2qg = -(4/9) (s^2+u^2)/(s u )+(u^2 +s^2)/t^2;
+webqg2qg /.s -> -t-u //Expand //Simplify
+Out[94]= (4 t^4+17 t^3 u+35 t^2 u^2+36 t u^3+18 u^4)/(9 t^2 u (t+u))
+In[106]:= webgg2gg /.s ->-u-t //Expand
+Out[106]= 27/2+(9 t^2)/(2 u^2)+(9 t)/(2 u)+(9 u)/(2 t)-(9 t u)/(2 (-t-u)^2)+(9 u^2)/(2 t^2)
+In[243]:= gg2gg = 1/(4 8 8 ) sqamp/gs^4/.subgprop /. s-> -t-u/.NF -> 3 //Expand;
+Coefficient[gg2gg ,u,-2] /.p4nv->p1nv + p2nv-p3nv //Expand
+Coefficient[gg2gg,u,-1]  //Expand;
+Out[244]= (9 t^2)/2
+In[248]:= Coefficient[gg2gg,t,-2] /.p3nv->p1nv + p2nv-p4nv//Expand
+Coefficient[gg2gg,t,-1] //Expand
+Out[248]= (9 u^2)/2
+Out[249]= (27 u)/8+(27 p1nv u)/(64 p2nv)-(9 p2nv u)/(64 p1nv)-(27 p1nv u)/(32 p3nv)-(9 p1nv^2 u)/(8 p2nv p3nv)-(27 p3nv u)/(32 p1nv)+(27 p3nv u)/(32 p2nv)-(9 p3nv^2 u)/(64 p1nv p2nv)+(117 p1nv u)/(64 p4nv)-(9 p1nv^2 u)/(8 p2nv p4nv)+(9 p2nv u)/(16 p4nv)+(9 p2nv^2 u)/(64 p1nv p4nv)-(45 p1nv^2 u)/(32 p3nv p4nv)-(27 p1nv p2nv u)/(32 p3nv p4nv)-(9 p3nv u)/(16 p4nv)+(9 p1nv p3nv u)/(4 p2nv p4nv)-(9 p2nv p3nv u)/(32 p1nv p4nv)+(9 p3nv^2 u)/(64 p1nv p4nv)-(9 p3nv^2 u)/(8 p2nv p4nv)-(9 p4nv u)/(64 p1nv)+(9 p4nv u)/(16 p2nv)+(9 p1nv p4nv u)/(8 p2nv p3nv)+(9 p3nv p4nv u)/(16 p1nv p2nv)+(9 p4nv^2 u)/(64 p1nv p2nv)
+In[253]:= Coefficient[gg2gg,-t-u,-2] //Apart
+Out[253]= -((9 t^2)/16)-(81 p1nv t^2)/(16 p2nv)-(81 p2nv t^2)/(16 p1nv)+(117 p1nv t^2)/(32 p3nv)+(117 p1nv^2 t^2)/(32 p2nv p3nv)+(171 p2nv t^2)/(32 p3nv)+(99 p2nv^2 t^2)/(32 p1nv p3nv)-(45 p3nv t^2)/(32 p1nv)+(9 p3nv t^2)/(32 p2nv)-(9 p3nv^2 t^2)/(8 p1nv p2nv)+(171 p1nv t^2)/(32 p4nv)+(99 p1nv^2 t^2)/(32 p2nv p4nv)+(117 p2nv t^2)/(32 p4nv)+(117 p2nv^2 t^2)/(32 p1nv p4nv)+(45 p1nv^2 t^2)/(32 p3nv p4nv)+(45 p1nv^3 t^2)/(32 p2nv p3nv p4nv)+(9 p1nv p2nv t^2)/(2 p3nv p4nv)+(45 p2nv^2 t^2)/(32 p3nv p4nv)+(45 p2nv^3 t^2)/(32 p1nv p3nv p4nv)+(45 p3nv t^2)/(32 p4nv)+(99 p1nv p3nv t^2)/(32 p2nv p4nv)+(99 p2nv p3nv t^2)/(32 p1nv p4nv)+(27 p3nv^2 t^2)/(32 p1nv p4nv)+(9 p3nv^2 t^2)/(32 p2nv p4nv)+(9 p4nv t^2)/(32 p1nv)-(45 p4nv t^2)/(32 p2nv)+(45 p4nv t^2)/(32 p3nv)+(99 p1nv p4nv t^2)/(32 p2nv p3nv)+(99 p2nv p4nv t^2)/(32 p1nv p3nv)+(9 p3nv p4nv t^2)/(4 p1nv p2nv)-(9 p4nv^2 t^2)/(8 p1nv p2nv)+(9 p4nv^2 t^2)/(32 p1nv p3nv)+(27 p4nv^2 t^2)/(32 p2nv p3nv)+(-((27 t)/8)-(81 p1nv t)/(8 p2nv)-(81 p2nv t)/(8 p1nv)+(9 p1nv t)/p3nv+(27 p1nv^2 t)/(4 p2nv p3nv)+(9 p2nv t)/p3nv+(27 p2nv^2 t)/(4 p1nv p3nv)-(9 p3nv t)/(8 p1nv)-(9 p3nv t)/(8 p2nv)-(9 p3nv^2 t)/(4 p1nv p2nv)+(9 p1nv t)/p4nv+(27 p1nv^2 t)/(4 p2nv p4nv)+(9 p2nv t)/p4nv+(27 p2nv^2 t)/(4 p1nv p4nv)+(27 p1nv^2 t)/(16 p3nv p4nv)+(45 p1nv^3 t)/(16 p2nv p3nv p4nv)+(27 p1nv p2nv t)/(4 p3nv p4nv)+(27 p2nv^2 t)/(16 p3nv p4nv)+(45 p2nv^3 t)/(16 p1nv p3nv p4nv)+(63 p3nv t)/(16 p4nv)+(99 p1nv p3nv t)/(16 p2nv p4nv)+(99 p2nv p3nv t)/(16 p1nv p4nv)+(9 p3nv^2 t)/(8 p1nv p4nv)+(9 p3nv^2 t)/(8 p2nv p4nv)-(9 p4nv t)/(8 p1nv)-(9 p4nv t)/(8 p2nv)+(63 p4nv t)/(16 p3nv)+(99 p1nv p4nv t)/(16 p2nv p3nv)+(99 p2nv p4nv t)/(16 p1nv p3nv)+(9 p3nv p4nv t)/(2 p1nv p2nv)-(9 p4nv^2 t)/(4 p1nv p2nv)+(9 p4nv^2 t)/(8 p1nv p3nv)+(9 p4nv^2 t)/(8 p2nv p3nv)) u+(-(9/16)-(81 p1nv)/(16 p2nv)-(81 p2nv)/(16 p1nv)+(171 p1nv)/(32 p3nv)+(99 p1nv^2)/(32 p2nv p3nv)+(117 p2nv)/(32 p3nv)+(117 p2nv^2)/(32 p1nv p3nv)+(9 p3nv)/(32 p1nv)-(45 p3nv)/(32 p2nv)-(9 p3nv^2)/(8 p1nv p2nv)+(117 p1nv)/(32 p4nv)+(117 p1nv^2)/(32 p2nv p4nv)+(171 p2nv)/(32 p4nv)+(99 p2nv^2)/(32 p1nv p4nv)+(45 p1nv^2)/(32 p3nv p4nv)+(45 p1nv^3)/(32 p2nv p3nv p4nv)+(9 p1nv p2nv)/(2 p3nv p4nv)+(45 p2nv^2)/(32 p3nv p4nv)+(45 p2nv^3)/(32 p1nv p3nv p4nv)+(45 p3nv)/(32 p4nv)+(99 p1nv p3nv)/(32 p2nv p4nv)+(99 p2nv p3nv)/(32 p1nv p4nv)+(9 p3nv^2)/(32 p1nv p4nv)+(27 p3nv^2)/(32 p2nv p4nv)-(45 p4nv)/(32 p1nv)+(9 p4nv)/(32 p2nv)+(45 p4nv)/(32 p3nv)+(99 p1nv p4nv)/(32 p2nv p3nv)+(99 p2nv p4nv)/(32 p1nv p3nv)+(9 p3nv p4nv)/(4 p1nv p2nv)-(9 p4nv^2)/(8 p1nv p2nv)+(27 p4nv^2)/(32 p1nv p3nv)+(9 p4nv^2)/(32 p2nv p3nv)) u^2

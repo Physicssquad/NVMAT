@@ -1,0 +1,37 @@
+
+Date: Tue Nov  5 15:22:51 2024
+
+
+conditional: false
+qgraf_file: qgraf/qQ2ww1L.qgraf.yaml
+output_file: qQ2ww1L.yaml
+info_file_form: qQ2ww1L.inf.inc
+names:
+  []
+
+Reading diagrams from file: qgraf/qQ2ww1L.qgraf.yaml
+rename negative field indices
+Loaded diagram 1
+rename negative field indices
+Loaded diagram 2
+rename negative field indices
+Loaded diagram 3
+rename negative field indices
+Loaded diagram 4
+rename negative field indices
+Loaded diagram 5
+rename negative field indices
+Loaded diagram 6
+rename negative field indices
+Loaded diagram 7
+rename negative field indices
+Loaded diagram 8
+rename negative field indices
+Loaded diagram 9
+rename negative field indices
+Loaded diagram 10
+Diagrams loaded. Time: 0.00445986s
+
+Analyzing topologies of 10 diagrams:
+Analyzing diagram 1
+

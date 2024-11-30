@@ -1,0 +1,12 @@
+output= 'qQ2ww1L.qgraf' ;
+style= 'form_v1.sty' ;
+model= 'QCDGRHIGGS';
+in= upq[p1], UPQ[p2];
+out= wpbos[p3], wmbos[p4];
+loops= 6;
+loop_momentum= k;
+options=  notadpole, nosnail, onshell;
+true = vsum[gs, 9, 9];
+true = vsum[kap, 0, 0];
+*true = vsum[CH, 1, 1];
+*true = iprop[H, 0, 0];
