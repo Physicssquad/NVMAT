@@ -1,13 +1,11 @@
-* output= 'gg2gg.qgraf';
+* output= 'gg2gg_LO.dat';
 * style= 'form_v1.sty';
 * model= 'QCDGRHIGGS';
 * in= glu[p1], glu[p2];
-* out= glu[p3],glu[p4];
+* out= glu[p3], glu[p4];
 * loops= 0;
 * loop_momentum=k;
 * options= notadpole, nosnail, onshell;
-* true = vsum[gs, 1, 2];
-* false = vsum[ew, 1, 2];
 *
 *
 * Diagrams

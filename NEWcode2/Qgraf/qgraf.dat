@@ -1,13 +1,20 @@
-output= 'bB2H1R.qgraf' ;
-style= 'form_v1.sty' ;
+output= 'gg2gg_LO.dat';
+style= 'form_v1.sty';
+
 model= 'QCDGRHIGGS';
-in= BOT[p1],bot[p2];
-out= Hig[p3],glu[p4];
+in= glu[p1], glu[p2];
+out= glu[p3], glu[p4];
 loops= 0;
-loop_momentum= k;
-options=  notadpole, nosnail, onshell;
-*true = vsum[ew, 0, 0];
-*true = vsum[gs, 2, 2];
-*true = vsum[kap, 0, 0];
-*true = vsum[CH, 1, 1];
-*true = iprop[QQ, 0, 1];
+loop_momentum=k;
+options= notadpole, nosnail, onshell;
+*true = vsum[gs, 1, 2];
+*false = vsum[kap,2,2];
+*false = vsum[ew, 1, 2];
+*true = vsum[ew, 1, 2];
+*true = vsum[kap, 1, 2];
+*true = vsum[kq, 1, 2];
+
+* To remove qcd vertex only at oneloop
+*true = vsum[gs, 1, 1];
+* To keep qcd vertex only at oneloop
+*style= 'xmldraw.sty';
