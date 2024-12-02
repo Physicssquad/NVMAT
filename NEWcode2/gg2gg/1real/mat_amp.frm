@@ -45,7 +45,7 @@ tracen `i';
 *************************
 * MOMENTUM CONSERVATION *
 *************************
-*multiply replace_(p4,p1+p2-p3-p5);
+multiply replace_(p4,p1+p2-p3-p5);
 
 ***************
 * COLOR TRACE *

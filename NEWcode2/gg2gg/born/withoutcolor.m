@@ -1,6 +1,6 @@
-TFORM 4.2 (Feb 17 2020) 64-bits 10 workers       Run: Sat Nov 30 18:14:48 2024
+TFORM 4.2 (Feb 17 2020) 64-bits 10 workers       Run: Mon Dec  2 10:25:22 2024
     #-
-  3.18 sec + 0.75 sec: 3.93 sec out of 3.67 sec
+  3.17 sec + 0.78 sec: 3.96 sec out of 3.69 sec
 
    mat =
        + 6*f(cix101,cix102,cixi101)*f(cix101,cix104,ci2)*f(cix103,cix102,ci2)*
