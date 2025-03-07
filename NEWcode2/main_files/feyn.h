@@ -480,6 +480,7 @@ id Vx(x1?,x2?,glugluglu,-`i',-`j',-`k',p1?,p2?,p3?) = gs*f(cix`i',cix`j',cix`k')
 #do j = 1,10
 #do k = 1,10
 #do l = 1,10
+
 id Vx(x1?,x2?,gluglugluglu,`i',`j',`k',`l',p1?,p2?,p3?,p4?) = 
                      -i_*gs^2*(f(ci`i',ci`k',cii`i')*f(ci`j',ci`l',cii`i')*(d_(li`i',li`j')*d_(li`k',li`l')-d_(li`i',li`l')*d_(li`k',li`j')) 
                	            + f(ci`i',ci`j',cii`i')*f(ci`k',ci`l',cii`i')*(d_(li`i',li`k')*d_(li`j',li`l')-d_(li`i',li`j')*d_(li`k',li`l'))
@@ -489,6 +490,11 @@ id Vx(x1?,x2?,gluglugluglu,-`i',-`j',-`k',-`l',p1?,p2?,p3?,p4?) =
                      -i_*gs^2*(f(cix`i',cix`k',cixi`i')*f(cix`j',cix`l',cixi`i')*(d_(lix`i',lix`j')*d_(lix`k',lix`l')-d_(lix`i',lix`l')*d_(lix`k',lix`j')) 
                	            + f(cix`i',cix`j',cixi`i')*f(cix`k',cix`l',cixi`i')*(d_(lix`i',lix`k')*d_(lix`j',lix`l')-d_(lix`i',lix`j')*d_(lix`k',lix`l'))
                             + f(cix`i',cix`l',cixi`i')*f(cix`k',cix`j',cixi`i')*(d_(lix`i',lix`l')*d_(lix`j',lix`k')-d_(lix`i',lix`j')*d_(lix`l',lix`k'))) ;
+
+id Vx(x1?,x2?,gluglugluglu,-`i',-`j',`k',`l',p1?,p2?,p3?,p4?) = 
+                     -i_*gs^2*(f(cix`i',ci`k',cixi`i')*f(cix`j',ci`l',cixi`i')*(d_(lix`i',lix`j')*d_(li`k',li`l')-d_(lix`i',li`l')*d_(li`k',lix`j')) 
+               	            + f(cix`i',cix`j',cixi`i')*f(ci`k',ci`l',cixi`i')*(d_(lix`i',li`k')*d_(lix`j',li`l')-d_(lix`i',lix`j')*d_(li`k',li`l'))
+                            + f(cix`i',ci`l',cixi`i')*f(ci`k',cix`j',cixi`i')*(d_(lix`i',li`l')*d_(lix`j',li`k')-d_(lix`i',lix`j')*d_(li`l',li`k'))) ;
 
 #enddo
 #enddo

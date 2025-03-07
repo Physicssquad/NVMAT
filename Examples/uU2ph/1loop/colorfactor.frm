@@ -21,9 +21,8 @@ id nf=1;
 *id NF=3;
 *id 1/NF=1/3;
 
-
 Format mathematica;
-B NF,gs,qe,qu;
+B gs,qe,qu,fprop,gprop;
 *#write <out.m> "  sqamp = ", mat 
 P +s ;
 .end

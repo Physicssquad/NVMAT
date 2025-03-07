@@ -23,7 +23,7 @@ id nf=1;
 
 
 Format mathematica;
-B NF,gs,qe,qu;
+B NF,gs,qe,qu,ch;
 *#write <out.m> "  sqamp = ", mat 
 P +s ;
 .end

@@ -69,14 +69,14 @@
 *------------------
 * YUKAWA Vertices
 *------------------
-[BOT,bot,Hig; gs=0,kap=0, CH=0, ew=0,yuk=1]
+*[BOT,bot,Hig; gs=0,kap=0, CH=0, ew=0,yuk=1]
 
 **---------------------------
 ** QCD Higgs effective vertex
 **---------------------------
 *
 *** for tTH coupling close this off as it does genetate additional ggH vertex
-*[glu,glu,Hig; gs=0, kap=0, CH=1,ew=0,yuk=0]
+[glu,glu,Hig; gs=0, kap=0, CH=1,ew=0,yuk=0]
 *[glu,glu,glu,Hig; gs=1, kap=0, CH=1,ew=0,yuk=0]
 *[g,g,g,g,H; gs=2, kap=0, CH=1,ew=0,yuk=0]
 *

@@ -1,0 +1,5 @@
+FORM 4.2.1 (Nov 21 2018, v4.2.1) 64-bits         Run: Sat Mar  1 15:53:38 2025
+    #-
+SUn Line 2 --> Unrecognized statement
+SUn Line 33 --> EndRepeat without Repeat
+Program terminating at colorfactor.frm Line 28 --> 
