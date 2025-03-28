@@ -18,7 +18,7 @@ Vector p1,p2,p3,p4,p5,p6,p7,p8,p45,p35,l1,l2,q;
 ***************
 * GAUGE CHECK *
 ***************
-Vector nn,nv,nm;
+Vector nn,nv,nm,nl;
 
 *****************
 * LORENTZ INDEX *
@@ -46,7 +46,7 @@ Index
 *********
 Index 
 #do ii=1,200;
-ci`ii'=NA,cix`ii'=NA,cii`ii'=NA,cixi`ii'=NA
+ci`ii'=NA,cix`ii'=NA,cii`ii'=NA,ciix`ii'=NA
 #enddo
       ;
 
@@ -75,8 +75,8 @@ a`ii'=n,bb`ii'=n,cc`ii'=n,dd`ii'=n,ee`ii'=n,ff`ii'=n,gg`ii'=n,hh`ii'=n,ii`ii'=n,
 Index g5;
 
 CFunction in,ou,upq,UPQ,elt,ELT,glu,ph,Hig
-          ,wpbos,wmbos,dq,DQ,BOT,bot;
-CFunction U,UB,V,VB,epolph,epolglu,epolmz,epolw;
+          ,wpbos,wmbos,dq,DQ,BOT,bot,zbos;
+CFunction U,UB,V,VB,epolph,epolglu,epolz,epolw;
 CFunction AA,Vx,zz,QQ,EE,GG,ggg,ggH,gggH;
 Cfunction phprop,zprop,fprop,gprop,Prop,Iprop;
 CFunction G,eps,G1,G2,G3,T;

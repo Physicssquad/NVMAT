@@ -1,9 +1,10 @@
-FORM 4.2 (Feb 17 2020) 64-bits                   Run: Sat Nov 30 15:46:43 2024
+FORM 4.2.1 (Nov 21 2018, v4.2.1) 64-bits         Run: Thu Mar 27 16:31:33 2025
     #-
 
    mat =
 
        + NF*gyuk^2 * (
-          + 2*s
+          - 8*mb^2
+          + 2*mH^2
           );
 

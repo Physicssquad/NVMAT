@@ -1,14 +1,9 @@
-
+*number of diagrams for C_M
 #$diaCS = 4;
 #$diaC = 4;
 *number of diagrams for M
 #$diaS = 4;
 #$dia = 4;
-
-*number of diagrams for C_M
-#$diaCS = 1;
-#$diaC = 1;
-
 
 #procedure mass
 id me = 0 ;    *mass of electron

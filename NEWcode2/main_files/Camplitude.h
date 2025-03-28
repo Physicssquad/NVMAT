@@ -38,7 +38,7 @@ multiply replace_(<cifx1,cifx101>,...,<cifx10,cifx110>);
 
 multiply replace_(<cii1,cii101>,...,<cii10,cii110>);
 
-multiply replace_(<cixi1,cixi101>,...,<cixi10,cixi110>);
+multiply replace_(<ciix1,ciix101>,...,<ciix10,ciix110>);
 
 .sort
 repeat,id G(si1?,si2?,?a)*G(si2?,si3?,?b)=G(si1,si3,?a,?b);

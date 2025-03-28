@@ -7,10 +7,10 @@ nwrite statistics;
 #include ../../main_files/feyn.h
 #include mandelsterm.h
 *#include ../../main_files/grfunc.h
-#include ../../main_files/SOn.prc
-#include ../../main_files/SUn.prc
-#include ../../main_files/color.h
-#include ../../main_files/gamma5.h
+*#include ../../main_files/SOn.prc
+*#include ../../main_files/SUn.prc
+*#include ../../main_files/color.h
+*#include ../../main_files/gamma5.h
 #include ../../main_files/Camplitude.h
 #include ../../main_files/amplitude.h
 .sort
@@ -28,6 +28,8 @@ repeat,id G(si1?,si2?,?a)*G(si2?,si3?,?b)=G(si1,si3,?a,?b);
 
 id epolph(lix1?,p3?,0)*epolph(lix101?,p3?,0) = - d_(lix1,lix101);
 id epolglu(lix1?,p1?,0)*epolglu(lix101?,p1?,0) = - d_(lix1,lix101)+(p1(lix1)*nv(lix101)+p1(lix101)*nv(lix1))/p1.nv;
+id epolw(lix1?,p3?,mw)*epolw(lix101?,p3?,mw) = -d_(lix1,lix101)+(p3(lix1)*p3(lix101))/mw^2 ;
+id epolz(lix1?,p3?,mw)*epolw(lix101?,p3?,mw) = -d_(lix1,lix101)+(p3(lix1)*p3(lix101))/mz^2 ;
 .sort
 
 

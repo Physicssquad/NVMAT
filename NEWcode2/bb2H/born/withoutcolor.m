@@ -1,8 +1,9 @@
-TFORM 4.2 (Feb 17 2020) 64-bits 4 workers        Run: Sat Nov 30 15:46:40 2024
+FORM 4.2.1 (Nov 21 2018, v4.2.1) 64-bits         Run: Thu Mar 27 16:31:28 2025
     #-
-  3.31 sec + 0.06 sec: 3.38 sec out of 3.39 sec
+  4.54 sec out of 4.54 sec
 
    mat =
-       + 2*NF*s*gyuk^2
+       - 8*NF*mb^2*gyuk^2
+          + 2*NF*mH^2*gyuk^2
          ;
 

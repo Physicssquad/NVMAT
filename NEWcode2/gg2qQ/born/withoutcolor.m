@@ -1,432 +1,186 @@
-FORM 4.2.1 (Nov 21 2018, v4.2.1) 64-bits         Run: Fri Sep 13 16:52:46 2024
+FORM 4.2.1 (Nov 21 2018, v4.2.1) 64-bits         Run: Thu Mar 27 13:15:47 2025
     #-
-  1.98 sec out of 2.00 sec
+  4.02 sec out of 4.02 sec
 
    mat =
-       - 14*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*s^-1*u*gs^4
-          - 14*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*s^-1*t*gs^4
-          - 8*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*s^-1*t^2*u^-1*gs^4
-          - 10*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*gs^4
-          - 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*t*u^-1*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*n*s^-1*u*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*n*s^-1*t*gs^4
-          + 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*n*s^-1*t^2*u^-1*
-         gs^4
-          + 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*n*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*i_*n*t*u^-1*gs^4
-          + 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*gs^4
-          - 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*t*u^-1*gs^4
-          - 8*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*s*u^-1*gs^4
-          + 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         s^-1*u*gs^4
-          + 8*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         s^-1*t*gs^4
-          - 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         gs^4
-          - 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*n*
-         s^-1*u*gs^4
-          - 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*n*
-         s^-1*t*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*n*
-         gs^4
-          + 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         s^-1*u*gs^4
-          + 20*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         s^-1*t*gs^4
-          - 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         gs^4
-          - 8*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*t*
-         u^-1*gs^4
-          - 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*s*
-         u^-1*gs^4
-          + 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*n*
-         gs^4
-          + 4*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*n*t
-         *u^-1*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*n*s
-         *u^-1*gs^4
-          + 10*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         s^-1*t*gs^4
-          + 6*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         s^-1*t^2*u^-1*gs^4
-          - 16*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         gs^4
-          - 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*t*
-         u^-1*gs^4
-          + 8*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*n*
-         gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*n*t
-         *u^-1*gs^4
-          - 20*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         s^-1*t*gs^4
-          - 12*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         s^-1*t^2*u^-1*gs^4
-          - 22*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         gs^4
-          - 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*t*
-         u^-1*gs^4
-          - 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*s*
-         u^-1*gs^4
-          + 2*Tr(ci2,cix101,cix103)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*n*s
-         *u^-1*gs^4
-          - 12*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*s^-2*
-         u^2*gs^4
-          - 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*s^-2*t
+       - 8*Tr(cix101,cix101,cix103,cix103)*gs^4
+          + 12*Tr(cix101,cix101,cix103,cix103)*n*gs^4
+          - 2*Tr(cix101,cix101,cix103,cix103)*n^2*gs^4
+          + 8*Tr(cix101,cix101,cix103,cix103)*Den(u)*u*gs^4
+          + 16*Tr(cix101,cix101,cix103,cix103)*Den(u)*t*gs^4
+          - 8*Tr(cix101,cix101,cix103,cix103)*Den(u)*n*u*gs^4
+          - 12*Tr(cix101,cix101,cix103,cix103)*Den(u)*n*t*gs^4
+          + 2*Tr(cix101,cix101,cix103,cix103)*Den(u)*n^2*u*gs^4
+          + 2*Tr(cix101,cix101,cix103,cix103)*Den(u)*n^2*t*gs^4
+          - 8*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*p2.nv*gs^4
+          + 4*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*p2.nv*n*gs^4
+          - 40*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*p4.nv*gs^4
+          + 8*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*p4.nv*n*gs^4
+          + 8*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(u)*p4.nv*u*gs^4
+          - 8*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(u)*p4.nv*t*gs^4
+          - 4*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(u)*p4.nv*n*u*gs^4
+          + 4*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(u)*p4.nv*n*t*gs^4
+          + 24*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(p2,nv)*Den(u)*
+         p4.nv^2*u*gs^4
+          - 8*Tr(cix101,cix101,cix103,cix103)*Den(p1,nv)*Den(p2,nv)*Den(u)*
+         p4.nv^2*t*gs^4
+          - 16*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p1.nv*u*gs^4
+          - 16*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p1.nv*t*gs^4
+          + 8*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p1.nv*n*u*gs^4
+          + 4*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p1.nv*n*t*gs^4
+          - 16*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p4.nv*u*gs^4
+          + 24*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p4.nv*t*gs^4
+          - 4*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p4.nv*n*u*gs^4
+          - 4*Tr(cix101,cix101,cix103,cix103)*Den(p2,nv)*Den(u)*p4.nv*n*t*gs^4
+          + 10*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*i_*gs^4
+          - 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*i_*n*gs^4
+          + 14*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den( - u - t)*i_
          *u*gs^4
-          - 12*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*s^-2*
-         t^2*gs^4
-          - 4*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*s^-1*u
-         *gs^4
-          - 4*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*s^-1*t
-         *gs^4
-          + 2*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*n*s^-2
-         *u^2*gs^4
-          - 4*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*n*s^-2
-         *t*u*gs^4
-          + 2*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*n*s^-2
-         *t^2*gs^4
-          + 2*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*n*s^-1
-         *u*gs^4
-          + 2*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*n*s^-1
+          + 14*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den( - u - t)*i_
          *t*gs^4
-          - 16*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv^-1*p4.nv^2*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*s^-2*u^2*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*s^-2*t*u*gs^4
-          - 16*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*s^-1*u*gs^4
-          - 16*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*s^-1*t*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*n*s^-1*u*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p2.nv*n*s^-1*t*gs^4
-          - 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p4.nv*s^-1*u*gs^4
-          - 24*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p1.nv^-1*p4.nv*s^-1*t*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv*
-         p2.nv^-1*s^-2*t*u*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv*
-         p2.nv^-1*s^-2*t^2*gs^4
-          - 16*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv
-         *p2.nv^-1*s^-1*u*gs^4
-          - 16*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv
-         *p2.nv^-1*s^-1*t*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv*
-         p2.nv^-1*n*s^-1*u*gs^4
-          + 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*p1.nv*
-         p2.nv^-1*n*s^-1*t*gs^4
-          - 24*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p2.nv^-1*p4.nv*s^-1*u*gs^4
-          - 8*Tr(ci2,ci102)*f(ci2,cix101,cix103)*f(cix101,ci102,cix103)*
-         p2.nv^-1*p4.nv*s^-1*t*gs^4
-          + 8*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*s^-1*t^-1*u^2*gs^4
-          + 14*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*s^-1*u*gs^4
-          + 14*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*s^-1*t*gs^4
-          + 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*t^-1*u*gs^4
-          + 10*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*gs^4
-          - 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*n*s^-1*t^-1*u^2*
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den( - u - t)*i_*
+         n*u*gs^4
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den( - u - t)*i_*
+         n*t*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(u)*i_*t*gs^4
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(u)*i_*n*t*
          gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*n*s^-1*u*gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*n*s^-1*t*gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*n*t^-1*u*gs^4
-          - 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*i_*n*gs^4
-          + 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*t^-1*u*gs^4
-          - 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*gs^4
-          + 8*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv^-1*
-         p4.nv^2*i_*s*t^-1*gs^4
-          - 6*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         s^-1*t^-1*u^2*gs^4
-          - 10*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         s^-1*u*gs^4
-          + 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         t^-1*u*gs^4
-          + 16*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*
-         gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*n*
-         t^-1*u*gs^4
-          - 8*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p2.nv*i_*n*
-         gs^4
-          + 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         s^-1*t^-1*u^2*gs^4
-          + 20*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         s^-1*u*gs^4
-          + 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         t^-1*u*gs^4
-          + 22*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*
-         gs^4
-          + 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*s*
-         t^-1*gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv^-1*p4.nv*i_*n*s
-         *t^-1*gs^4
-          - 8*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         s^-1*u*gs^4
-          - 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         s^-1*t*gs^4
-          + 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*
-         gs^4
-          + 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*n*
-         s^-1*u*gs^4
-          + 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*n*
-         s^-1*t*gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p1.nv*p2.nv^-1*i_*n*
-         gs^4
-          - 20*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         s^-1*u*gs^4
-          - 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         s^-1*t*gs^4
-          + 8*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         t^-1*u*gs^4
-          + 12*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*
-         gs^4
-          + 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*s*
-         t^-1*gs^4
-          - 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*n*
-         t^-1*u*gs^4
-          - 4*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*n*
-         gs^4
-          - 2*Tr(ci2,cix103,cix101)*f(ci2,cix101,cix103)*p2.nv^-1*p4.nv*i_*n*s
-         *t^-1*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*t^-1*u*gs^4
-          - 16*Tr(cix101,cix101,cix103,cix103)*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*t*u^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*s*t^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*s*u^-1*gs^4
-          - 4*Tr(cix101,cix101,cix103,cix103)*n*t^-1*u*gs^4
-          + 24*Tr(cix101,cix101,cix103,cix103)*n*gs^4
-          - 4*Tr(cix101,cix101,cix103,cix103)*n*t*u^-1*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*n*s*t^-1*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*n*s*u^-1*gs^4
-          - 4*Tr(cix101,cix101,cix103,cix103)*n^2*gs^4
-          - 2*Tr(cix101,cix101,cix103,cix103)*n^2*s*t^-1*gs^4
-          - 2*Tr(cix101,cix101,cix103,cix103)*n^2*s*u^-1*gs^4
-          - 32*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*t^-1*
-         u*gs^4
-          - 32*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*t*
-         u^-1*gs^4
-          - 24*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*s*
-         t^-1*gs^4
-          - 24*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*s*
-         u^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv*gs^4
-          + 16*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv*s*t^-1*gs^4
-          - 4*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv*n*t^-1*u*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv*n*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p2.nv*n*s*t^-1*gs^4
-          + 40*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*t^-1*u*gs^4
-          - 40*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*gs^4
-          - 16*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*t*u^-1*gs^4
-          + 16*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*s*t^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*s*u^-1*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*n*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*n*t*u^-1*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*n*s*t^-1*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p1.nv^-1*p4.nv*n*s*u^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p1.nv*p2.nv^-1*gs^4
-          + 16*Tr(cix101,cix101,cix103,cix103)*p1.nv*p2.nv^-1*s*u^-1*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p1.nv*p2.nv^-1*n*gs^4
-          - 4*Tr(cix101,cix101,cix103,cix103)*p1.nv*p2.nv^-1*n*t*u^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p1.nv*p2.nv^-1*n*s*u^-1*gs^4
-          - 16*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*t^-1*u*gs^4
-          - 40*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*gs^4
-          + 40*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*t*u^-1*gs^4
-          - 8*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*s*t^-1*gs^4
-          + 16*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*s*u^-1*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*n*t^-1*u*gs^4
-          + 8*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*n*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*n*s*t^-1*gs^4
-          + 4*Tr(cix101,cix101,cix103,cix103)*p2.nv^-1*p4.nv*n*s*u^-1*gs^4
-          - 14*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*s^-1*u*gs^4
-          - 14*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*s^-1*t*gs^4
-          - 8*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*s^-1*t^2*u^-1*
-         gs^4
-          - 10*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*gs^4
-          - 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*t*u^-1*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*n*s^-1*u*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*n*s^-1*t*gs^4
-          + 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*n*s^-1*t^2*
-         u^-1*gs^4
-          + 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*n*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*i_*n*t*u^-1*gs^4
-          + 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*
-         p2.nv^-1*p4.nv^2*i_*gs^4
-          - 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*
-         p2.nv^-1*p4.nv^2*i_*t*u^-1*gs^4
-          - 8*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv^-1
-         *p4.nv^2*i_*s*u^-1*gs^4
-          + 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*
-         i_*s^-1*u*gs^4
-          + 8*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *s^-1*t*gs^4
-          - 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *gs^4
-          - 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *n*s^-1*u*gs^4
-          - 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *n*s^-1*t*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *n*gs^4
-          + 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
-         i_*s^-1*u*gs^4
-          + 20*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
-         i_*s^-1*t*gs^4
-          - 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
+          + 8*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(u)*Den( - u
+          - t)*i_*t^2*gs^4
+          - 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(u)*Den( - u
+          - t)*i_*n*t^2*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*p2.nv*
          i_*gs^4
-          - 8*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *t*u^-1*gs^4
-          - 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *s*u^-1*gs^4
-          + 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *n*gs^4
-          + 4*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *n*t*u^-1*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *n*s*u^-1*gs^4
-          + 10*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*
-         i_*s^-1*t*gs^4
-          + 6*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *s^-1*t^2*u^-1*gs^4
-          - 16*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*
-         i_*gs^4
-          - 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *t*u^-1*gs^4
-          + 8*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *n*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *n*t*u^-1*gs^4
-          - 20*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*s^-1*t*gs^4
-          - 12*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*s^-1*t^2*u^-1*gs^4
-          - 22*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*gs^4
-          - 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *t*u^-1*gs^4
-          - 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *s*u^-1*gs^4
-          + 2*Tr(cix101,ci102,cix103)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *n*s*u^-1*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*t^-1*u*gs^4
-          + 16*Tr(cix101,cix103,cix101,cix103)*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*t*u^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*s*t^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*s*u^-1*gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*n*t^-1*u*gs^4
-          - 24*Tr(cix101,cix103,cix101,cix103)*n*gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*n*t*u^-1*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*n*s*t^-1*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*n*s*u^-1*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*n^2*gs^4
-          - 64*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*s*
-         t^-1*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*s*
-         u^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv^-1*p4.nv^2*s^2*
-         t^-1*u^-1*gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv*t^-1*u*gs^4
-          + 16*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv*s*t^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv*n*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p2.nv*n*s*t^-1*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*t^-1*u*gs^4
-          + 48*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*s*u^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*s^2*t^-1*u^-1*
-         gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*n*s*u^-1*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*p1.nv^-1*p4.nv*n*s^2*t^-1*u^-1*
-         gs^4
-          + 16*Tr(cix101,cix103,cix101,cix103)*p1.nv*p2.nv^-1*gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*p1.nv*p2.nv^-1*t*u^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv*p2.nv^-1*s*u^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p1.nv*p2.nv^-1*n*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*p1.nv*p2.nv^-1*n*s*u^-1*gs^4
-          + 48*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*t*u^-1*gs^4
-          - 16*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*s*t^-1*gs^4
-          - 8*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*s^2*t^-1*u^-1*
-         gs^4
-          + 8*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*n*s*t^-1*gs^4
-          + 4*Tr(cix101,cix103,cix101,cix103)*p2.nv^-1*p4.nv*n*s^2*t^-1*u^-1*
-         gs^4
-          + 8*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*s^-1*t^-1*u^2*
-         gs^4
-          + 14*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*s^-1*u*gs^4
-          + 14*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*s^-1*t*gs^4
-          + 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*t^-1*u*gs^4
-          + 10*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*gs^4
-          - 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*n*s^-1*t^-1*
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*p2.nv*
+         i_*n*gs^4
+          + 12*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*p4.nv
+         *i_*gs^4
+          - 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*p4.nv*
+         i_*n*gs^4
+          - 12*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p2.nv*i_*u*gs^4
+          - 8*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p2.nv*i_*t*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p2.nv*i_*n*u*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p2.nv*i_*n*t*gs^4
+          - 12*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p4.nv*i_*u*gs^4
+          - 20*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+          - u - t)*p4.nv*i_*t*gs^4
+          - 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(u)
+         *p4.nv*i_*u*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(u)
+         *p4.nv*i_*t*gs^4
+          + 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(u)
+         *p4.nv*i_*n*u*gs^4
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(u)
+         *p4.nv*i_*n*t*gs^4
+          - 12*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(
+         p2,nv)*p4.nv^2*i_*gs^4
+          - 8*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(p2
+         ,nv)*Den(u)*p4.nv^2*i_*u*gs^4
+          + 4*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p1,nv)*Den(p2
+         ,nv)*Den(u)*p4.nv^2*i_*t*gs^4
+          + 16*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*p1.nv
+         *i_*gs^4
+          - 8*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*p1.nv*
+         i_*n*gs^4
+          + 22*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*p4.nv
+         *i_*gs^4
+          - 10*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(
+          - u - t)*p1.nv*i_*t*gs^4
+          + 20*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(
+          - u - t)*p4.nv*i_*t*gs^4
+          + 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *p1.nv*i_*t*gs^4
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *p1.nv*i_*n*t*gs^4
+          - 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *p4.nv*i_*u*gs^4
+          + 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *p4.nv*i_*n*u*gs^4
+          + 2*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *p4.nv*i_*n*t*gs^4
+          - 6*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u)
+         *Den( - u - t)*p1.nv*i_*t^2*gs^4
+          + 12*Tr(cix101,ci102,cix103)*f(cix101,cix103,ci102)*Den(p2,nv)*Den(u
+         )*Den( - u - t)*p4.nv*i_*t^2*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*gs^4
+          - 12*Tr(cix101,cix103,cix101,cix103)*n*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*n^2*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(t)*u*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(t)*t*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(t)*n*u*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(t)*n*t*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(u)*u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(u)*t*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(u)*n*u*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(u)*n*t*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*p2.nv*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*p2.nv*n*gs^4
+          + 24*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*p4.nv*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*p2.nv*u*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*p2.nv*t*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*p2.nv*n*u*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*p2.nv*n*t*gs^4
+          - 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*p4.nv*u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*
          u^2*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*n*s^-1*u*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*n*s^-1*t*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*n*t^-1*u*gs^4
-          - 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*i_*n*gs^4
-          + 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*
-         p2.nv^-1*p4.nv^2*i_*t^-1*u*gs^4
-          - 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*
-         p2.nv^-1*p4.nv^2*i_*gs^4
-          + 8*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv^-1
-         *p4.nv^2*i_*s*t^-1*gs^4
-          - 6*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *s^-1*t^-1*u^2*gs^4
-          - 10*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*
-         i_*s^-1*u*gs^4
-          + 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *t^-1*u*gs^4
-          + 16*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*
-         i_*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *n*t^-1*u*gs^4
-          - 8*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p2.nv*i_
-         *n*gs^4
-          + 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
-         i_*s^-1*t^-1*u^2*gs^4
-          + 20*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
-         i_*s^-1*u*gs^4
-          + 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *t^-1*u*gs^4
-          + 22*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*
-         i_*gs^4
-          + 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *s*t^-1*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv^-1*p4.nv*i_
-         *n*s*t^-1*gs^4
-          - 8*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *s^-1*u*gs^4
-          - 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*
-         i_*s^-1*t*gs^4
-          + 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *gs^4
-          + 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *n*s^-1*u*gs^4
-          + 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *n*s^-1*t*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p1.nv*p2.nv^-1*i_
-         *n*gs^4
-          - 20*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*s^-1*u*gs^4
-          - 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*s^-1*t*gs^4
-          + 8*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *t^-1*u*gs^4
-          + 12*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*
-         i_*gs^4
-          + 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *s*t^-1*gs^4
-          - 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *n*t^-1*u*gs^4
-          - 4*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *n*gs^4
-          - 2*Tr(cix101,cix103,ci102)*f(cix101,ci102,cix103)*p2.nv^-1*p4.nv*i_
-         *n*s*t^-1*gs^4
+          - 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*t
+         *u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*
+         t^2*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*n
+         *u^2*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*n
+         *t*u*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(t)*Den(u)*p4.nv*n
+         *t^2*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(u)*p4.nv*u*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(u)*p4.nv*t*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(u)*p4.nv*n*u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(u)*p4.nv*n*t*gs^4
+          - 32*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*p4.nv^2*
+         gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(t)*
+         p4.nv^2*u*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(t)*
+         p4.nv^2*t*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(t)*
+         Den(u)*p4.nv^2*u^2*gs^4
+          - 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(t)*
+         Den(u)*p4.nv^2*t*u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(t)*
+         Den(u)*p4.nv^2*t^2*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(u)*
+         p4.nv^2*u*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p1,nv)*Den(p2,nv)*Den(u)*
+         p4.nv^2*t*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*p1.nv*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*p1.nv*n*gs^4
+          + 24*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*p4.nv*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*p4.nv*u*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*p4.nv*t*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*p4.nv*n*u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*p4.nv*n*t*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*
+         u^2*gs^4
+          - 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*t
+         *u*gs^4
+          - 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*
+         t^2*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*n
+         *u^2*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*n
+         *t*u*gs^4
+          + 2*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(t)*Den(u)*p4.nv*n
+         *t^2*gs^4
+          + 4*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(u)*p1.nv*u*gs^4
+          + 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(u)*p1.nv*t*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(u)*p1.nv*n*u*gs^4
+          - 2*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(u)*p1.nv*n*t*gs^4
+          - 8*Tr(cix101,cix103,cix101,cix103)*Den(p2,nv)*Den(u)*p4.nv*t*gs^4
          ;
 

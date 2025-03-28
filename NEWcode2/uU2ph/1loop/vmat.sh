@@ -22,7 +22,11 @@ do
 	sed -i '6s/.*/#$dia = '$j';/g' input.h
 
 #	tform -w10 -l mat_amp.frm > amplitudes/mat"$i""$j".m
+<<<<<<< Updated upstream
 	tform -w10 mat_amp.frm > withoutcolor.m 
+=======
+	form  mat_amp.frm > withoutcolor.m 
+>>>>>>> Stashed changes
        	sed '1,4d' withoutcolor.m|sed 's/mat/L   mat/g' > colorform.m
 	form colorfactor.frm > out.m
 	cat out.m > amplitudes/mat"$i""$j".m
@@ -39,6 +43,7 @@ sed -i '1,2d' amplitudes/mat*
 
 cat amplitudes/mat* > amplitudes/amplitudes.m
 
+<<<<<<< Updated upstream
 echo "wait"
 sleep 2
 echo "3"
@@ -47,6 +52,16 @@ echo "2"
 sleep 1
 echo "1"
 sleep 1
+=======
+#echo "wait"
+#sleep 2
+#echo "3"
+#sleep 1
+#echo "2"
+#sleep 1
+#echo "1"
+#sleep 1
+>>>>>>> Stashed changes
 
 echo "Baaki kaam khud karo !!  
 

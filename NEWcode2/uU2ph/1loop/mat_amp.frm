@@ -7,10 +7,17 @@ nwrite statistics;
 #include ../../main_files/feyn.h
 #include mandelsterm.h
 *#include ../../main_files/grfunc.h
+<<<<<<< Updated upstream
 #include ../../main_files/SOn.prc
 #include ../../main_files/SUn.prc
 #include ../../main_files/color.h
 #include ../../main_files/gamma5.h
+=======
+*#include ../../main_files/SOn.prc
+*#include ../../main_files/SUn.prc
+*#include ../../main_files/color.h
+*#include ../../main_files/gamma5.h
+>>>>>>> Stashed changes
 #include ../../main_files/Camplitude.h
 #include ../../main_files/amplitude.h
 .sort

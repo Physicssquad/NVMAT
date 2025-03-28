@@ -13,7 +13,6 @@
 #procedure mass
 id me = 0 ;    *mass of electron
 id mu = 0 ;   *mass of up quark
-id mb = 0 ;   *mass of up quark
 #endprocedure
 
 

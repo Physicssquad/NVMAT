@@ -26,9 +26,13 @@ repeat,id G(si1?,si2?,?a)*G(si2?,si3?,?b)=G(si1,si3,?a,?b);
 #call mass
 
 id epolph(lix1?,p3?,0)*epolph(lix101?,p3?,0) = - d_(lix1,lix101);
+
 id epolglu(lix1?,p1?,0)*epolglu(lix101?,p1?,0) = - d_(lix1,lix101)+(p1(lix1)*nv(lix101)+nv(lix1)*p1(lix101))/p1.nv;
+
 *id,once epolglu(lix1?,p1?,0)*epolglu(lix101?,p1?,0) = - d_(lix1,lix101)+(p1(lix1)*nv(lix101)+nv(lix1)*p1(lix101))/p1.nv;
+*
 *id,once epolglu(lix1?,p1?,0)*epolglu(lix101?,p1?,0) = - d_(lix1,lix101)+(p1(lix1)*nn(lix101)+nn(lix1)*p1(lix101))/p1.nn;
+
 .sort
 
 
@@ -71,6 +75,15 @@ id fprop(-p1+p3)=1/t;
 id fprop(-p2+p3)=1/u;
 id fprop(p2-p4)=1/t;
 id fprop(p1-p4)=1/u;
+
+
+repeat,id p1?.p2?^-1  = Den(p1,p2);
+repeat,id s?^-1=Den(s);
+
+
+multiply replace_( s , -t-u);
+
+.sort
 ************************
 B fprop;
 print +s mat;

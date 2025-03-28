@@ -1,8 +1,8 @@
 
-
-
+#$diaCS = 3;
+#$diaC = 3;
 *number of diagrams for M
-#$diaS = 1;
+#$diaS = 3;
 #$dia = 3;
 
 *number of diagrams for C_M

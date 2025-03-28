@@ -22,7 +22,7 @@ id NF=3;
 id 1/NF=1/3;
 
 
-Format mathematica;
+*Format mathematica;
 B NF,gs,qe,qu;
 *#write <out.m> "  sqamp = ", mat 
 P +s ;

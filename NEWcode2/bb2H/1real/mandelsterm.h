@@ -1,8 +1,8 @@
 #procedure mandelsterm
 
 
-id p1.p1=0;
-id p2.p2=0;
+id p1.p1=mb^2;
+id p2.p2=mb^2;
 id p3.p3=mH^2;
 id p4.p4=0;
 

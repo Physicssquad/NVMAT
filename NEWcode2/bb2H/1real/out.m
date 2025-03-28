@@ -1,28 +1,10 @@
-FORM 4.2 (Feb 17 2020) 64-bits                   Run: Sat Nov 30 15:38:47 2024
-    #-
+  mat =  + gs^2*gyuk^2 * ( 2 + 4*u^(-2)*mH^2*mb^2 - 8*u^(-1)*mb^2 - 2*
+         u^(-1)*mH^2 + 4*t*u^(-1) - n*t*u^(-1) - 4*p1.nv*p4.nv^(-1) + 4
+         *p1.nv*p4.nv^(-1)*u^(-1)*mH^2 - 2*p1.nv*p4.nv^(-1)*t*u^(-1) - 
+         2*p2.nv*p4.nv^(-1) )
 
-   mat =
-
-       + gs^2*gyuk^2 * (
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*mH^4
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*u*mH^2
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*mH^2
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*u
-          + 32*fprop[ - p1 + p3]*fprop[p2 - p3]*s*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*mH^4
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*u*mH^2
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*u
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*u*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p3.nv*s*u
-          );
+       + NF^2*gs^2*gyuk^2 * (  - 2 - 4*u^(-2)*mH^2*mb^2 + 8*u^(-1)*mb^2
+          + 2*u^(-1)*mH^2 - 4*t*u^(-1) + n*t*u^(-1) + 4*p1.nv*
+         p4.nv^(-1) - 4*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 + 2*p1.nv*
+         p4.nv^(-1)*t*u^(-1) + 2*p2.nv*p4.nv^(-1) );
 

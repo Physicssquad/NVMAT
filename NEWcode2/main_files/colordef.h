@@ -43,5 +43,5 @@ Symbol d;
 AutoDeclare Symbol F1,F1x12,F1x123,F1x124,F2,F3,F1x132,F1;
 
 Dimension NF;
-vector p1,p2,p3,p4,p5,p6,q,nn,nv,k1,k2,nm;
+vector p1,p2,p3,p4,p5,p6,q,nn,nv,k1,k2,nm,nl;
 Symbol p1nv,p2nv,p3nv,p4nv;

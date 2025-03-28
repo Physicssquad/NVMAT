@@ -1,114 +1,53 @@
+  mat11 =(  + gs^2*gyuk^2 * ( 2 + 4*t^(-2)*mH^2*mb^2 - 8*t^(-1)*mb^2 - 2*
+         t^(-1)*mH^2 + 4*t^(-1)*u - n*t^(-1)*u - 2*p1.nv*p4.nv^(-1) - 4
+         *p2.nv*p4.nv^(-1) + 4*p2.nv*p4.nv^(-1)*t^(-1)*mH^2 - 2*p2.nv*
+         p4.nv^(-1)*t^(-1)*u )
 
-   mat[1,1] =(
+       + NF^2*gs^2*gyuk^2 * (  - 2 - 4*t^(-2)*mH^2*mb^2 + 8*t^(-1)*mb^2
+          + 2*t^(-1)*mH^2 - 4*t^(-1)*u + n*t^(-1)*u + 2*p1.nv*
+         p4.nv^(-1) + 4*p2.nv*p4.nv^(-1) - 4*p2.nv*p4.nv^(-1)*t^(-1)*
+         mH^2 + 2*p2.nv*p4.nv^(-1)*t^(-1)*u ));
 
-       + gs^2*gyuk^2 * (
-          - 32*fprop[ - p1 + p3]^2*mH^4
-          + 32*fprop[ - p1 + p3]^2*u*mH^2
-          + 32*fprop[ - p1 + p3]^2*t*mH^2
-          - 32*fprop[ - p1 + p3]^2*t*u
-          + 32*fprop[ - p1 + p3]^2*s*mH^2
-          + 8*fprop[ - p1 + p3]^2*n*mH^4
-          - 8*fprop[ - p1 + p3]^2*n*u*mH^2
-          - 8*fprop[ - p1 + p3]^2*n*t*mH^2
-          + 8*fprop[ - p1 + p3]^2*n*t*u
-          - 8*fprop[ - p1 + p3]^2*n*s*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*mH^4
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*u*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*s*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*mH^4
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*u*mH^2
-          - 32/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*mH^4
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*u*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*t*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*s*t
-          ));
+  mat12 =(  + gs^2*gyuk^2 * (  - 4*t^(-1)*u^(-1)*mH^2*mb^2 - 2*t^(-1)*
+         u^(-1)*mH^4 + 4*t^(-1)*mb^2 + 3*t^(-1)*mH^2 - t^(-1)*u + 4*
+         u^(-1)*mb^2 + 3*u^(-1)*mH^2 - t*u^(-1) - n + 3*p1.nv*
+         p4.nv^(-1) - 2*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 + p1.nv*p4.nv^(-1)
+         *t*u^(-1) + 3*p2.nv*p4.nv^(-1) - 2*p2.nv*p4.nv^(-1)*t^(-1)*
+         mH^2 + p2.nv*p4.nv^(-1)*t^(-1)*u )
 
+       + NF^2*gs^2*gyuk^2 * ( 4*t^(-1)*u^(-1)*mH^2*mb^2 + 2*t^(-1)*
+         u^(-1)*mH^4 - 4*t^(-1)*mb^2 - 3*t^(-1)*mH^2 + t^(-1)*u - 4*
+         u^(-1)*mb^2 - 3*u^(-1)*mH^2 + t*u^(-1) + n - 3*p1.nv*
+         p4.nv^(-1) + 2*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 - p1.nv*p4.nv^(-1)
+         *t*u^(-1) - 3*p2.nv*p4.nv^(-1) + 2*p2.nv*p4.nv^(-1)*t^(-1)*
+         mH^2 - p2.nv*p4.nv^(-1)*t^(-1)*u ));
 
-   mat[1,2] =(
+  mat21 =(  + gs^2*gyuk^2 * (  - 4*t^(-1)*u^(-1)*mH^2*mb^2 - 2*t^(-1)*
+         u^(-1)*mH^4 + 4*t^(-1)*mb^2 + 3*t^(-1)*mH^2 - t^(-1)*u + 4*
+         u^(-1)*mb^2 + 3*u^(-1)*mH^2 - t*u^(-1) - n + 3*p1.nv*
+         p4.nv^(-1) - 2*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 + p1.nv*p4.nv^(-1)
+         *t*u^(-1) + 3*p2.nv*p4.nv^(-1) - 2*p2.nv*p4.nv^(-1)*t^(-1)*
+         mH^2 + p2.nv*p4.nv^(-1)*t^(-1)*u )
 
-       + gs^2*gyuk^2 * (
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*mH^4
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*u*mH^2
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*mH^2
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*u
-          + 32*fprop[ - p1 + p3]*fprop[p2 - p3]*s*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*mH^4
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*u*mH^2
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*u
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*u*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p3.nv*s*u
-          ));
+       + NF^2*gs^2*gyuk^2 * ( 4*t^(-1)*u^(-1)*mH^2*mb^2 + 2*t^(-1)*
+         u^(-1)*mH^4 - 4*t^(-1)*mb^2 - 3*t^(-1)*mH^2 + t^(-1)*u - 4*
+         u^(-1)*mb^2 - 3*u^(-1)*mH^2 + t*u^(-1) + n - 3*p1.nv*
+         p4.nv^(-1) + 2*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 - p1.nv*p4.nv^(-1)
+         *t*u^(-1) - 3*p2.nv*p4.nv^(-1) + 2*p2.nv*p4.nv^(-1)*t^(-1)*
+         mH^2 - p2.nv*p4.nv^(-1)*t^(-1)*u ));
 
+  mat22 =(  + gs^2*gyuk^2 * ( 2 + 4*u^(-2)*mH^2*mb^2 - 8*u^(-1)*mb^2 - 2*
+         u^(-1)*mH^2 + 4*t*u^(-1) - n*t*u^(-1) - 4*p1.nv*p4.nv^(-1) + 4
+         *p1.nv*p4.nv^(-1)*u^(-1)*mH^2 - 2*p1.nv*p4.nv^(-1)*t*u^(-1) - 
+         2*p2.nv*p4.nv^(-1) )
 
-   mat[2,1] =(
+       + NF^2*gs^2*gyuk^2 * (  - 2 - 4*u^(-2)*mH^2*mb^2 + 8*u^(-1)*mb^2
+          + 2*u^(-1)*mH^2 - 4*t*u^(-1) + n*t*u^(-1) + 4*p1.nv*
+         p4.nv^(-1) - 4*p1.nv*p4.nv^(-1)*u^(-1)*mH^2 + 2*p1.nv*
+         p4.nv^(-1)*t*u^(-1) + 2*p2.nv*p4.nv^(-1) ));
 
-       + gs^2*gyuk^2 * (
-          - 32*fprop[ - p1 + p3]^2*mH^4
-          + 32*fprop[ - p1 + p3]^2*u*mH^2
-          + 32*fprop[ - p1 + p3]^2*t*mH^2
-          - 32*fprop[ - p1 + p3]^2*t*u
-          + 32*fprop[ - p1 + p3]^2*s*mH^2
-          + 8*fprop[ - p1 + p3]^2*n*mH^4
-          - 8*fprop[ - p1 + p3]^2*n*u*mH^2
-          - 8*fprop[ - p1 + p3]^2*n*t*mH^2
-          + 8*fprop[ - p1 + p3]^2*n*t*u
-          - 8*fprop[ - p1 + p3]^2*n*s*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*mH^4
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*u*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p1.nv*s*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*mH^4
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*u*mH^2
-          - 32/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*t^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p2.nv*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*mH^4
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*u*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*t*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]^2*p3.nv*s*t
-          ));
-
-
-   mat[2,2] =(
-
-       + gs^2*gyuk^2 * (
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*mH^4
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*u*mH^2
-          + 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*mH^2
-          - 16*fprop[ - p1 + p3]*fprop[p2 - p3]*t*u
-          + 32*fprop[ - p1 + p3]*fprop[p2 - p3]*s*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*mH^4
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*u*mH^2
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*mH^2
-          + 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*t*u
-          - 8*fprop[ - p1 + p3]*fprop[p2 - p3]*n*s*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u*mH^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p1.nv*u^2
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*u*mH^2
-          - 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p2.nv*t*u
-          + 16/(p1.nv + p2.nv - p3.nv)*fprop[ - p1 + p3]*fprop[p2 - p3]
-         *p3.nv*s*u
-          ));
-
+   
+ mat = ( mat11 
+  + mat12 
+  + mat21 
+  + mat22  ) ;
